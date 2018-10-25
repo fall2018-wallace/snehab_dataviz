@@ -92,8 +92,11 @@
         },
         {
             "name": "rapePlot.png"
+        },
+        {
+            "name": "assaultPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:10:24",
+    "updated_at": "2018-10-25 17:10:37",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
