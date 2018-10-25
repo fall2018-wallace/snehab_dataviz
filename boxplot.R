@@ -1,5 +1,6 @@
 
 library(ggplot2)
+
 populationBoxPLot <- ggplot(mergedData, aes(y= mergedData$population)) +
   geom_boxplot()
 
