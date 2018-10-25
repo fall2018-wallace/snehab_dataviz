@@ -15,9 +15,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "assigned_to": "srbinani",
             "desc": "",
             "name": "census.R",
@@ -28,6 +25,6 @@
             "name": "USArrests.R.R"
         }
     ],
-    "updated_at": "2018-10-25 16:52:04",
+    "updated_at": "2018-10-25 16:52:17",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
