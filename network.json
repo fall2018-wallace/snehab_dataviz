@@ -201,8 +201,11 @@
         },
         {
             "name": "murder.bar1.png"
+        },
+        {
+            "name": "murder.bar2.png"
         }
     ],
-    "updated_at": "2018-10-25 17:19:56",
+    "updated_at": "2018-10-25 17:20:05",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
