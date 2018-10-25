@@ -1,5 +1,6 @@
 
 library(ggplot2)
+
 # Step C: Which State had the Most Murders - bar charts
 # 7)	Calculate the number of murders per state
 mergedData$murderperrate<- (mergedData$Murder*mergedData$population)/100000
