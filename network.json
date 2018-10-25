@@ -66,10 +66,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "srbinani",
             "desc": "",
-            "name": "histograms.R"
+            "name": "histograms.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "populationPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:01:29",
+    "updated_at": "2018-10-25 17:07:45",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
