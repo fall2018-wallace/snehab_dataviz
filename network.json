@@ -91,6 +91,17 @@
             ],
             "source": "histograms.R",
             "target": "assaultPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -137,10 +148,12 @@
             "name": "assaultPlot.png"
         },
         {
+            "assigned_to": "srbinani",
             "desc": "",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 17:12:25",
+    "updated_at": "2018-10-25 17:13:24",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
