@@ -112,6 +112,16 @@
             ],
             "source": "boxplot.R",
             "target": "populationBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "murderBoxPlot.png"
         }
     ],
     "nodes": [
@@ -170,6 +180,6 @@
             "name": "murderBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:15:01",
+    "updated_at": "2018-10-25 17:15:13",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
