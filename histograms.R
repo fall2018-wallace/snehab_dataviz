@@ -1,4 +1,6 @@
 
+library(ggplot2)
+
 populationPlot<- ggplot(mergedData, aes(x=population)) + geom_histogram(bins=10) #creating histogram for Population
 murderPlot<- ggplot(mergedData, aes(x=Murder)) + geom_histogram(bins=10) #creating histogram for Murder
 
