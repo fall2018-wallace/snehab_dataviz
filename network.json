@@ -1,0 +1,267 @@
+{
+    "collaborators": [
+        "srbinani"
+    ],
+    "created_at": "2018-10-25 16:37:04",
+    "edges": [
+        {
+            "ports": [],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStates",
+                    "output": "dfStates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "USArrests.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "histograms.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "populationPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "populationPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "murderPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "urbanPopPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "urbanpopPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rapePlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "rapePlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "assaultPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "assaultPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "populationBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "populationBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "murderBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "barcharts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder.bar",
+                    "type": "png"
+                }
+            ],
+            "source": "barcharts.R",
+            "target": "murder.bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder.bar1",
+                    "type": "png"
+                }
+            ],
+            "source": "barcharts.R",
+            "target": "murder.bar1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder.bar2",
+                    "type": "png"
+                }
+            ],
+            "source": "barcharts.R",
+            "target": "murder.bar2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder.bar3",
+                    "type": "png"
+                }
+            ],
+            "source": "barcharts.R",
+            "target": "murder.bar3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder.scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "barcharts.R",
+            "target": "murder.scatter.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "USArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "histograms.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "populationPlot.png"
+        },
+        {
+            "name": "murderPlot.png"
+        },
+        {
+            "name": "urbanpopPlot.png"
+        },
+        {
+            "name": "rapePlot.png"
+        },
+        {
+            "name": "assaultPlot.png"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "populationBoxPlot.png"
+        },
+        {
+            "name": "murderBoxPlot.png"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "barcharts.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "murder.bar.png"
+        },
+        {
+            "name": "murder.bar1.png"
+        },
+        {
+            "name": "murder.bar2.png"
+        },
+        {
+            "name": "murder.bar3.png"
+        },
+        {
+            "name": "murder.scatter.png"
+        }
+    ],
+    "updated_at": "2018-10-25 17:23:14",
+    "url": "https://github.com/fall2018-wallace/snehab_dataviz"
+}
