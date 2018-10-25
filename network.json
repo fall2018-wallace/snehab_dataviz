@@ -19,6 +19,17 @@
             ],
             "source": "census.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "USArrests.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -32,10 +43,10 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "srbinani",
             "desc": "",
             "name": "USArrests.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "srbinani",
@@ -44,6 +55,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:56:41",
+    "updated_at": "2018-10-25 16:58:01",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
