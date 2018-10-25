@@ -4,3 +4,5 @@ populationBoxPLot <- ggplot(mergedData, aes(y= mergedData$population)) +
 
 murderBoxPlot <- ggplot(mergedData, aes(y= mergedData$Murder)) +
   geom_boxplot()
+  
+  populationBoxPLot
