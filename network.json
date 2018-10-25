@@ -41,6 +41,16 @@
             ],
             "source": "merge.R",
             "target": "histograms.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "populationPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "populationPlot.png"
         }
     ],
     "nodes": [
@@ -75,6 +85,6 @@
             "name": "populationPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:07:45",
+    "updated_at": "2018-10-25 17:07:58",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
