@@ -178,8 +178,12 @@
         },
         {
             "name": "murderBoxPlot.png"
+        },
+        {
+            "desc": "",
+            "name": "barcharts.R"
         }
     ],
-    "updated_at": "2018-10-25 17:15:13",
+    "updated_at": "2018-10-25 17:17:27",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
