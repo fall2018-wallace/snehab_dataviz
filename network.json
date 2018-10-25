@@ -152,8 +152,11 @@
             "desc": "",
             "name": "boxplot.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "populationBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:13:24",
+    "updated_at": "2018-10-25 17:14:18",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
