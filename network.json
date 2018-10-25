@@ -61,6 +61,16 @@
             ],
             "source": "histograms.R",
             "target": "murderPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "urbanPopPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "urbanpopPlot.png"
         }
     ],
     "nodes": [
@@ -107,6 +117,6 @@
             "name": "assaultPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:11:01",
+    "updated_at": "2018-10-25 17:11:16",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
