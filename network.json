@@ -81,6 +81,16 @@
             ],
             "source": "histograms.R",
             "target": "rapePlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "assaultPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "histograms.R",
+            "target": "assaultPlot.png"
         }
     ],
     "nodes": [
@@ -127,6 +137,6 @@
             "name": "assaultPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:11:28",
+    "updated_at": "2018-10-25 17:11:38",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
