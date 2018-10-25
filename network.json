@@ -122,6 +122,17 @@
             ],
             "source": "boxplot.R",
             "target": "murderBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "barcharts.R"
         }
     ],
     "nodes": [
@@ -180,10 +191,12 @@
             "name": "murderBoxPlot.png"
         },
         {
+            "assigned_to": "srbinani",
             "desc": "",
-            "name": "barcharts.R"
+            "name": "barcharts.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 17:17:27",
+    "updated_at": "2018-10-25 17:18:22",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
