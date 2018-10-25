@@ -5,26 +5,6 @@
     "created_at": "2018-10-25 16:37:04",
     "edges": [
         {
-            "ports": [
-                {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
             "ports": [],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "census.R"
@@ -33,11 +13,6 @@
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "assigned_to": "srbinani",
-            "name": "clean.R",
-            "task_status": "in progress"
         },
         {
             "name": "data.csv"
@@ -49,6 +24,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:51:33",
+    "updated_at": "2018-10-25 16:51:41",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
