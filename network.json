@@ -30,6 +30,17 @@
             ],
             "source": "USArrests.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "histograms.R"
         }
     ],
     "nodes": [
@@ -59,6 +70,6 @@
             "name": "histograms.R"
         }
     ],
-    "updated_at": "2018-10-25 17:01:03",
+    "updated_at": "2018-10-25 17:01:29",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
