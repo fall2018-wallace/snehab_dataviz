@@ -21,10 +21,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "not assigned",
             "desc": "",
-            "name": "USArrests.R.R"
+            "name": "USArrests.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-25 16:52:17",
+    "updated_at": "2018-10-25 16:55:14",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
