@@ -155,8 +155,11 @@
         },
         {
             "name": "populationBoxPlot.png"
+        },
+        {
+            "name": "murderBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-25 17:14:18",
+    "updated_at": "2018-10-25 17:14:48",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
