@@ -8,3 +8,4 @@ assaultPlot <- ggplot(mergedData, aes(x=mergedData$Assault)) + geom_histogram(bi
 rapeAssault <- ggplot(mergedData, aes(x=mergedData$Rape)) + geom_histogram(bins=10) #creating histogram for Rape
 populationPlot
 murderPlot
+urbanPopPlot
