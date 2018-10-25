@@ -133,6 +133,16 @@
             ],
             "source": "merge.R",
             "target": "barcharts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder.bar",
+                    "type": "png"
+                }
+            ],
+            "source": "barcharts.R",
+            "target": "murder.bar.png"
         }
     ],
     "nodes": [
@@ -212,6 +222,6 @@
             "name": "murder.scatter.png"
         }
     ],
-    "updated_at": "2018-10-25 17:21:18",
+    "updated_at": "2018-10-25 17:22:06",
     "url": "https://github.com/fall2018-wallace/snehab_dataviz"
 }
